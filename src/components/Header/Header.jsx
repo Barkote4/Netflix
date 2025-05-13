@@ -1,11 +1,9 @@
-
-import logo from "../../assets/netflix.png";
+import logo from "../../assets/images/netflix.png";
 import "./Header.css";
 import { IoSearchOutline } from "react-icons/io5";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { MdOutlineAccountBox } from "react-icons/md";
 import { IoMdArrowDropdown } from "react-icons/io";
-
 function Header() {
   return (
     <div>
@@ -30,6 +28,7 @@ function Header() {
               <li>
                 <IoSearchOutline />
               </li>
+
               <li>
                 <IoMdNotificationsOutline />
               </li>
@@ -44,7 +43,7 @@ function Header() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;
