@@ -1,6 +1,7 @@
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa6";
+import { MdCopyright } from "react-icons/md";
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -45,7 +46,7 @@ const Footer = () => {
           <div className="service-code">
             <p className="code-box">Service Code</p>
           </div>
-          <div className="copy-right"> &copy; 1997-2024 Netflix, inc.</div>
+          <div className="copy-right"> <MdCopyright  size={20}/> 1997-2025 Netflix, inc.</div>
         </div>
       </div>
     </div>
